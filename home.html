@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Educational web site for kids </title>
+		<meta charset="utf-8">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+	<link rel="stylesheet" href="index.css"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nerko+One&family=Press+Start+2P&display=swap" rel="stylesheet">
+	</head>
+	<body>
+<header class="headerclass">
+  <img id="kids" src="image/kids.jpg" alt="">
+      <nav class="projectnav">
+      <ul>
+        <li class="home"><a href="#">Home</a></li>
+        <li class="lecture"><a href="#lect">lecture</a></li>
+        <li class="gues"><a href="#guess1">Guess</a></li>
+        <li class="some math"><a href="#math1">Some Math</a></li>
+        <li class="some games"><a href="#gamespic">Suggestion </a></li>
+      </ul>
+    </nav>
+  </header>
+  <div>
+    <section id="lect">
+  <h1 class="lecture1"> lecture : </h1>
+  <h2>lets start :</h2>
+  <div>
+    <button class="letterA" type="button"><img src="image/A.png"></button>
+   </div>
+   <div>
+    <button class="letterB" type="button"><img src="image/B.png"></button>
+   </div>
+   <div>
+    <button class="letterC" type="button"><img src="image/C.png"></button>
+   </div>
+   <div>
+    <button class="letterD" type="button"><img src="image/D.png"></button>
+   </div>
+   <div>
+    <button class="letterE" type="button"><img src="image/E.png"></button>
+   </div>
+   <div>
+    <button class="letterF" type="button"><img src="image/F.png"></button>
+   </div>
+   <div>
+    <button class="letterG" type="button"><img src="image/G.png"></button>
+   </div>
+  </section>
+  <section id="guess1">
+   <div>
+   <h1 class="lecture1"> guess the picture: </h1>
+  <h2> lets start :</h2>
+  <img class="thepictoguess"src="image/pexels-ioandan-plesa-14610286.jpg">
+  <p>guess the pic:</p> 
+  <input  type="text" id="guessthepic" value="guess the pic">
+<button onclick="guesswhat()">Try</button>
+<p id="result"></p>
+</div>
+</section>
+<section id="math1">
+<div>
+   <h1 class="lecture1"> some math: </h1>
+  <h2> lets start :</h2>
+  <p>find the true result:</p>
+    <img class="thepictoguess" src="image/cool-math-games-for-kids-math-bingo.jpg">
+    <p>product the two number:</p> 
+    <input  type="text" id="productthenum" value="product the num">
+    <button onclick="product()">Try</button>
+   <p id="productresult"></p>
+</div>
+</section>
+<section class="games1">
+  <h1>some games for fun</h1>
+  <img src="" id="gamespic">
+</section>
+ <script src="min.js"></script>
+	</body>
+</html>
+
+
+
+
+
+

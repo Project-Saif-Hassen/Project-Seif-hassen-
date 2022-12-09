@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Nabla&display=swap');
+
+body{
+    font-family: 'Nerko One', cursive;
+font-family: 'Press Start 2P', cursive;
+background : url(image/gray.png) ;
+}
+ .lecture1 {
+  font-family: "Nabla";
+  text-align: center;
+  color: #130f40;
+}
+.headerclass{
+    background:url(image/pexels-jess-bailey-designs-743986.jpg) ;
+    background-size:cover;
+    padding: 350px 30px 30px 30px ;
+  }
+  nav {
+    width: 1847px;
+      position: fixed;
+      list-style: none;
+      background-color: darkorange;;
+      text-align: center;
+      margin: -781px 0px 0px -29px;
+  }
+    nav li {
+      font-family: 'Oswald', sans-serif;
+      width: 120px;
+      border-bottom: none;
+      height: 50px;
+      line-height: 50px;
+      font-size: 1.4em;
+      display: inline-block;
+      margin-right: -4px;
+    }
+  nav a {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    transition: .3s background-color;
+  }
+  nav a:hover {
+    background-color: #005F5F;
+  }
+  nav a:active {
+    background-color: #fff;
+    color: #444;
+    cursor: default;
+  }
+  button img {
+      height: 70px;
+      width: 70px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.40);
+  }
+   .thepictoguess{
+    height: 567px;
+      width: 501px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 10px 40px 0 rgba(0, 0, 0, 0.40);
+   }
+   #kids{
+    
+    margin:-274px 102px 421px 635px;
+    width: 500px;
+    height: 285px;
+   }
+  #lect,#math1,#guess1{
+    text-align: center;
+  }
+  input {
+    height: 40px;
+	width: 350px;
+	padding: 0 5px;
+	font-size: 18px;
+	outline: none;
+	border: 1px solid silver;
+    font-size: 18px;
+	color: #130f40;
+	margin: 5px 0
+
+  }
+  button{
+    margin: 45px 0 30px 0;
+	height: 45px;
+	width: 127px;
+	font-size: 20px;
+	color: white;
+	outline: none;
+	cursor: pointer;
+	font-weight: bold;
+	background: #005F5F;
+	border-radius: 3px;
+	border: 1px solid #3949AB;
+	transition: .5s;
+  }
+ 
+.lecture1,.guess1,.math1{
+  background-color: #005F5F;
+}
+.games1{
+  text-align: center;
+}
+  
+  
+  
+  
